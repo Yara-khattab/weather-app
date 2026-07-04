@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .card{
     padding: 25px 30px;
@@ -25,8 +26,8 @@ body{
     gap: 12px;
 }
 input{
-    width: 250px;
-    height: 43px;
+    width: 200px;
+    height: 40px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -38,15 +39,19 @@ input:focus{
     box-shadow:0 0 0 3px rgb(11, 168, 196);
 }
 .info{
-    padding:5px 10px;
-    width: 250px;
-    height: 45px;
+    padding-left:10px;
+    width: 240px;
+    height: 40px;
     background-color: rgba(165, 164, 164, 0.6);
     box-shadow: 2px 8px 40px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    display: none;
 }
 button{
-    background-color: rgb(11, 168, 196);
+    background-color: rgb(0, 163, 192);
     padding: 10px 0px;
     color: white;
     font-size: 19px;
@@ -55,6 +60,27 @@ button{
     width: 140px;
     cursor: pointer;
 }
-.info{
+.info i{
+    margin-right: 3px;
+    font-size: 22px;
+    color: rgb(0, 212, 212);
+    opacity: 60%;
+}
+h1{
+    font-size: 35px;
+    color: rgb(237, 255, 255);
+}
+h1 i{
+    margin-right: -5px;
+}
+.nam{
+    display: flex;
+    gap: 10px;
+}
+#sniper{
+    width:40px;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgb(0, 163, 192);
     display: none;
 }
