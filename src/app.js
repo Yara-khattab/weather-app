@@ -15,3 +15,19 @@ app.get('/',(req,res)=>{
     })
 })
 app.use("/fa", express.static("node_modules/@fortawesome/fontawesome-free"));
+const forecast=require("./data/forecast")
+app.get("/weather",(req,res)=>{
+    if(!req.query.country){
+        return res.send({
+            error:"Please enter a country"
+        })
+    }
+    forecast(req.query.country,(error,data)=>{
+        if(error){
+            return res.send({
+                error:error
+            })
+        }
+        res.send(data)
+    })
+})
