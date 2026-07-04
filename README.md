@@ -38,6 +38,7 @@ weather-app/
 ├── views/
 │   └── index.hbs
 │
+├── package-lock.json
 ├── package.json
 └── README.md
 ```
