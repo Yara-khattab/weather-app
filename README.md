@@ -1,12 +1,12 @@
 # 🌦️ Weather App
 
 A full-stack weather application built as part of my **Back-End Learning Journey** with **SEF Academy**.
-
 The application fetches real-time weather data using **WeatherAPI** and displays:
 
 - 📍 Location
 - 🌡️ Temperature
 - 🌍 Latitude & Longitude
+
 
 ## 🛠️ Technologies Used
 
@@ -18,6 +18,7 @@ The application fetches real-time weather data using **WeatherAPI** and displays
 - JavaScript
 - WeatherAPI
 - Font Awesome
+
 
 ## 📂 Project Structure
 
@@ -40,6 +41,7 @@ weather-app/
 ├── package.json
 └── README.md
 ```
+
 
 ---
 **Developed by Yara Khattab 💙**
