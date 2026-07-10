@@ -24,9 +24,7 @@ app.get("/weather",(req,res)=>{
     }
     forecast(req.query.country,(error,data)=>{
         if(error){
-            return res.send({
-                error:error
-            })
+            return res.send({error:error})
         }
         res.send(data)
     })
